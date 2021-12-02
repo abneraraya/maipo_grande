@@ -92,3 +92,33 @@ Para poder crear algun registro dentro de esta entidad Primeramente debe existir
 "informedeventaglobal": "http://127.0.0.1:8000/api/informedeventaglobal/",
 
 "informeventapersonal": "http://127.0.0.1:8000/api/informeventapersonal/"
+
+
+**************************************************************************************
+#SECCIÓN DESARROLLADOR
+**************************************************************************************
+
+
+# DESPLEGAR EN WINDOWS 
+
+En carpeta raíz ejecutar comando con consola cmd (prom):
+
+Crear entorno virtual
+
+**virtualenv env**
+
+Carga entorno virtual ya creado
+
+**cd env/Scripts/**
+
+**activate.bat**
+
+**cd ../../**
+
+Instalar dependencias en entorno virtual
+
+**pip install -r requeriments.txt**
+
+Desplegar aplicación
+
+**python manage.py runserver**
